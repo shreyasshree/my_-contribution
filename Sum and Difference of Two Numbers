@@ -1,0 +1,18 @@
+# my_-contribution
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+  int a,b;
+  float m,n;
+  //print the two no.
+  scanf("%d %d",&a,&b);
+  //print the two no.s
+  scanf("%f %f",&m,&n);
+  printf("%d %d",a+b,a-b);
+  printf("\n%.1f %.1f",m+n,m-n);
+  return 0;
+}
